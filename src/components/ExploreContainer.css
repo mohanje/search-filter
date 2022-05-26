@@ -1,0 +1,93 @@
+.container {
+  width: 60% !important;
+  color: black !important;
+  margin: auto;
+}
+.form-group {
+  display: block;
+}
+.label {
+  width: 100px !important;
+}
+.form-control {
+  width: 500px !important;
+  border: 1px solid black;
+  background-color: white;
+  font-size: 20px;
+  padding: 5px !important;
+  border-radius: 10px;
+}
+
+.search-button {
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 20px;
+  height: 65px;
+}
+
+.content-wrapper {
+  display: flex;
+  align-items: center;
+}
+.w-100 {
+  width: 100%;
+}
+.ion-search-button {
+  height: 50px;
+  background: gray !important;
+  border-start-start-radius: 20px !important;
+  border: 4px solid #c1c1c1;
+  min-height: 30px;
+  border-start-end-radius: 20px;
+}
+.ion-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-acc {
+  border: 1px solid lightgray;
+  margin-bottom: 0.1rem;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 49px;
+}
+
+.ion-grid-row {
+  height: 30px;
+}
+
+ion-input {
+  border: 1px solid lightgray;
+  border-radius: 6px;
+}
+
+ion-item::part(native) {
+  background: #ccc;
+  padding: 0px;
+  margin: 0px;
+}
+.update::part(native) {
+  background: green !important;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+.Save::part(native) {
+  background: #7564e3 !important;
+  border-radius: 10px;
+}
+
+.MuiInput-underline:before {
+  border: none !important;
+}
+.select-class {
+  width: 100%;
+  background: transparent;
+  border: 1px solid #ccc;
+  height: 5vh;
+  border-radius: 6px;
+}
